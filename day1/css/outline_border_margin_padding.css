@@ -1,0 +1,15 @@
+.section-1{
+    background-color: #DDD;
+    /* top left bottom right */
+    /* padding: 10px; */
+    padding: 10px 20px;
+    width: 60%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 50px;
+    /* border-color: red;
+    border-width: 10px;
+    border-style: solid; */
+    border: red 10px solid;
+    outline: blue 10px solid;
+}

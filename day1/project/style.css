@@ -1,0 +1,61 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* profile card styling */
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #ddd;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    padding: 5px;
+}
+
+.profile-name {
+    color: #333;
+    font-size: 24px;
+    margin: 15px;
+}
+
+
+.profile-description {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.profile-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.profile-button:hover {
+    background-color: #45a049;
+}
+
+/* Outline effect on focus */
+.profile-button:focus {
+    outline: 2px dashed #4CAF50;
+  }
