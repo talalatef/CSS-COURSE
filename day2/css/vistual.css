@@ -1,0 +1,13 @@
+div {
+    background-color: red;
+}
+
+.third {
+    margin: 10px;
+    visibility: visible;
+}
+
+.first {
+    margin: 10px;
+    /* display: none; */
+}
